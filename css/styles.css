@@ -2781,6 +2781,8 @@ td:last-child {
 .social-list a {
     display    : flex;
     align-items: center;
+    flex-shrink: 0; /* prevent cut-off in flex container */
+    overflow: hidden;
 }
 
 .social-list a:focus svg path,
@@ -2791,8 +2793,10 @@ td:last-child {
 }
 
 .social-list svg {
-    height: var(--vspace-0_875);
-    width : var(--vspace-0_875);
+    height: 24px;
+    width : 24px;
+    min-width: 20px;
+    flex-shrink: 0;
 }
 
 .social-list svg path,
@@ -2800,6 +2804,19 @@ td:last-child {
     fill      : rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
 }
+
+
+@media screen and (max-width: 480px) {
+  .social-list svg {
+    height: 20px;
+    width : 20px;
+  }
+
+  .social-list li {
+    margin-right: 0.5rem;
+  }
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## swiper overrides
@@ -3127,7 +3144,7 @@ td:last-child {
 }
 
 .s-header__logo img {
-    width         : auto;
+    width : auto;
     height: 50px;
     margin        : 0;
     vertical-align: bottom;
@@ -3532,13 +3549,28 @@ td:last-child {
 }
 
 .s-intro__social svg {
-    height: var(--vspace-0_75);
-    width : var(--vspace-0_75);
+    height: var(--vspace-0_75, 24px); /* fallback if var isn't set */
+    width : var(--vspace-0_75, 24px);
+    min-width: 20px;
+    min-height: 20px;
+    flex-shrink: 0;
 }
 
 .s-intro__social svg path,
 .s-intro__social svg circle {
     fill: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 600px) {
+  .s-intro__social {
+    bottom: 2rem; /* bring it up so it fits */
+    right: 1rem;
+  }
+  .s-intro__social svg {
+    height: 20px;
+    width: 20px;
+  }
 }
 
 /* --------------------------------------------------------------------
