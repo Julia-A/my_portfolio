@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hudson</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> -->
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="./images/logo.svg" alt="Julia's logo">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Works</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+
+                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
+                        <h1 class="s-intro__content-title">
+                        I'm Aderemi Julia<br>
+                        <span>Backend Developer </span>
+                        
+                        </h1>                            
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
+                        </div> <!-- s-intro__content-btns -->   
+
+                    </div> <!-- s-intro__content-text -->                     
+                    
+                </div> <!-- s-intro__content-inner -->  
+            </div> <!-- s-intro__content -->
+
+           <ul class="s-intro__social social-list">
+                <!-- LinkedIn -->
+                <li>
+                    <a href="https://www.linkedin.com/in/julia-aderemi" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        width="24" height="24" viewBox="0 0 24 24"
+                        style="fill:rgba(0, 0, 0, 1);">
+                        <path d="M20.447 20.452h-3.147v-5.569c0-1.326-.024-3.033-1.847-3.033-1.847 
+                                0-2.129 1.445-2.129 2.94v5.662H10.06V9h3.023v1.561h.043c.422-.8 
+                                1.456-1.647 2.998-1.647 3.204 0 3.797 2.11 3.797 4.855v6.683zM5.337 
+                                7.433c-.97 0-1.75-.79-1.75-1.766 0-.977.781-1.767 1.75-1.767.969 
+                                0 1.75.79 1.75 1.767 0 .976-.781 1.766-1.75 
+                                1.766zm1.525 13.019H3.811V9h3.05v11.452zM22.225 
+                                0H1.771C.792 0 0 .77 0 1.723v20.554C0 23.23.792 
+                                24 1.771 24h20.451C23.208 24 24 23.23 24 
+                                22.277V1.723C24 .77 23.208 0 22.225 0z"/>
+                    </svg>
+                    <span class="u-screen-reader-text">LinkedIn</span>
+                    </a>
+                </li>
+
+                <!-- GitHub -->
+                <li>
+                    <a href="https://github.com/Julia-A" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        width="24" height="24" viewBox="0 0 24 24"
+                        style="fill:rgba(0, 0, 0, 1);">
+                        <path d="M12 .296c-6.627 0-12 5.373-12 12 0 5.302 
+                                3.438 9.8 8.205 11.387.599.111.82-.261.82-.58 
+                                0-.287-.011-1.244-.017-2.248-3.338.725-4.042-1.416-4.042-1.416-.546-1.388-1.333-1.757-1.333-1.757-1.089-.745 
+                                .083-.729.083-.729 1.205.085 1.84 1.237 1.84 
+                                1.237 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.76-1.605-2.665-.3-5.467-1.333-5.467-5.93 
+                                0-1.31.469-2.381 1.237-3.221-.124-.303-.536-1.524.117-3.176 
+                                0 0 1.008-.322 3.301 1.23.958-.266 1.983-.399 
+                                3.003-.404 1.02.005 2.045.138 3.004.404 2.292-1.552 
+                                3.297-1.23 3.297-1.23.653 1.653.242 
+                                2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 
+                                0 4.609-2.807 5.625-5.479 5.921.429.369.812 
+                                1.096.812 2.212 0 1.598-.014 2.888-.014 
+                                3.279 0 .321.219.694.825.576C20.565 
+                                22.092 24 17.592 24 12.296 24 5.669 
+                                18.627.297 12 .297z"/>
+                    </svg>
+                    <span class="u-screen-reader-text">GitHub</span>
+                    </a>
+                </li>
+
+                <!-- Twitter -->
+                <li>
+                    <a href="https://x.com/lia_jules_?t=wRHei1uoJm_IfYynuVq4eQ&s=09" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        width="24" height="24" viewBox="0 0 24 24" 
+                        style="fill:rgba(0, 0, 0, 1);">
+                        <path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461
+                                c-2.282,0-4.402-0.661-6.186-1.809c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721
+                                c-1.771-0.037-3.255-1.197-3.767-2.793c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137
+                                c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05c0.537,0.299,1.16,0.486,1.82,0.511
+                                C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032
+                                c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923
+                                c0-2.22,1.796-4.028,4.028-4.028c1.16,0,2.207,0.486,2.943,1.272
+                                c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22
+                                c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"/>
+                    </svg>
+                    <span class="u-screen-reader-text">Twitter</span>
+                    </a>
+                </li>
+                </ul>
+
+
+            <div class="s-intro__content-media">                               
+                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg.jpg 2x" alt="">
+            </div> <!-- s-intro__content-media -->                
+
+            <div class="s-intro__btn-download">
+                <a
+                    class="btn btn--stroke"
+                    href="/downloads//Julia-Aderemi-Resume.pdf"
+                    download="Aderemi_Julia_CV.pdf"
+                >
+                    Get My CV
+                </a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <span class="attention-getter">
+                    I graduated with <span>first-class honors</span> in Computer Information Systems from Babcock University—tech fundamentals down, but more importantly, I learned how to think like a builder. I’m a backend developer who enjoys making systems that are clean under the hood and calm under pressure.<br><br>
+
+                    I worked with PoolUp, a startup in the transport space, where I helped <span>build out their backend infrastructure</span>, from APIs to database models. Startups teach you fast: move quick, write code that lasts, and solve problems nobody’s solved yet. <br><br>
+
+                    Outside of official roles, <span>I’ve built and shipped several projects you’ll find below</span>—each one a result of curiosity meeting execution. I care about performance, clean structure, and writing code that doesn’t just work today but still makes sense months from now.
+                    </p>
+
+                    <p class="attention-getter">
+                    Most days, you’ll find me coding to lofi beats in a dimly lit room.
+                    </p>
+
+                    <!-- <div class="grid-list-items s-about__blocks"> -->
+
+                        <!-- <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    Spotify
+                                    <span>Product Designer</span>
+                                </li>
+                                <li>
+                                    Dropbox
+                                    <span>Interface Developer</span>
+                                </li>
+                                <li>
+                                    Google
+                                    <span>Lead UI Designer</span>
+                                </li>
+                                <li>
+                                    Figma
+                                    <span>UI Designer</span>
+                                </li>
+                                <li>
+                                    Microsoft
+                                    <span>UI Designer</span>
+                                </li>
+                            </ul>
+                        </div>  -->
+                        <!-- end s-about__block -->
+
+                        <!-- <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Awards</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        Site Of The Month
+                                        <span>Awwwards — 2023</span>
+                                    </a>                                        
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Site Of The Day
+                                        <span>Awwwards — 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Agency of The Year
+                                        <span>Awwwards — 2022</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        FWA of The Month
+                                        <span>FWA — 2022</span>
+                                    </a>
+                                </li><li>
+                                    <a href="#0">
+                                        Site Of The Month
+                                        <span>Awwwards — 2022</span>
+                                    </a>                                        
+                                </li>
+                            </ul>
+                        </div>  -->
+                        <!--end s-about__block -->
+                        
+                        <!-- <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    Product Design
+                                </li>
+                                <li>
+                                    UI/UX Design
+                                </li>
+                                <li>
+                                    Prototyping
+                                </li>
+                                <li>
+                                    Frontend Development
+                                </li>
+                                <li>
+                                    Illustration
+                                </li>
+                                <li>
+                                    Visual Design
+                                </li>
+                            </ul>
+                        </div>  -->
+                        <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Selected Works.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row folio-entries">
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/e-commerce_API.jpg" class="entry__link glightbox" data-glightbox="title: E-Commerce API; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="images/folio/e-commerce_API.jpg"  alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">E-Commerce API</h4>
+                            <div class="entry__cat">Node JS with Express, MongoDB, Swagger, JWT</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                        A scalable RESTful API built for a fictional crochet store, handling product listings, user authentication, and cart operations. Designed with modular architecture and secure access control using JWT.
+
+                        <a href="https://crochet-e-commerce-api.onrender.com/api-docs">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/campus-security.jpg" class="entry__link glightbox" data-glightbox="title: Incident Management System; description: .entry__desc-02">
+                        <div class="entry__thumb">
+                            <img src="images/folio/campus-security.jpg" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Incident Management System</h4>
+                            <div class="entry__cat">Node JS with Express, MongoDB, EJS, Tailwind, CSS, Cloudinary, Node mailer</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-02">
+                        <p>
+                        This project showcases my knowledge in Node JS with Express, MongoDB, routing, EJS, JavaScript, and logical thinking.
+                        <a href="https://campus-security-management-system.onrender.com/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/blog.jpg" class="entry__link glightbox" data-glightbox="title: Blog; description: .entry__desc-03">
+                        <div class="entry__thumb">
+                            <img src="images/folio/blog.jpg" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Blog</h4>
+                            <div class="entry__cat">Node JS with Express, MongoDB, JWT, EJS, CSS</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-03">
+                        <p>
+                        Showcases my knowledge in authentication and authorization, clean working architectecture/structure (MVC), and in assigning user roles
+
+                        <a href="https://julia-blog.onrender.com/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/poolUp.jpg" class="entry__link glightbox" data-glightbox="title: PoolUp; description: .entry__desc-04">
+                        <div class="entry__thumb">
+                            <img src="images/folio/poolUp.jpg"  alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">PoolUp</h4>
+                            <div class="entry__cat">NodeJS with Express, SQL</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-04">
+                        <p>
+                        
+                        <a href="https://www.poolupuni.com/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/password-generator.jpg" class="entry__link glightbox" data-glightbox="title: Password Generator; description: .entry__desc-05">
+                        <div class="entry__thumb">
+                            <img src="images/folio/password-generator.jpg" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Password Generator</h4>
+                            <div class="entry__cat">Javascript, HTML, CSS</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-05">
+                        <p>
+                        This project showcases my knowledge of JavaScript and its methods
+                        <a href="https://random-password-generator-j.netlify.app/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+
+            </div> <!-- folio entries -->
+
+
+            <!-- <div class="row s-testimonials">
+                <div class="column xl-12">
+
+                    <h3 class="s-testimonials__header">Hear it from My Happy Clients</h3>
+    
+                    <div class="swiper-container s-testimonials__slider">
+    
+                        <div class="swiper-wrapper">
+
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-02.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>John Rockefeller</strong>
+                                        <span>Standard Oil Co.</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                                Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
+                                Laudantium quia consequatur molestias.
+                                </p>
+                            </div>  -->
+                            <!-- end s-testimonials__slide -->
+            
+                            <!-- <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-03.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Andrew Carnegie</strong>
+                                        <span>Carnegie Steel Co.</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                                Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
+                                Quasi voluptas eius distinctio. Atque eos maxime.
+                                </p>
+                            </div>  -->
+                            <!-- end s-testimonials__slide -->
+            
+                            <!-- <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-01.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>John Morgan</strong>
+                                        <span>JP Morgan & Co.</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                                Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                                Voluptatem dignissimos ut.
+                                </p>
+                            </div>  -->
+                            <!-- end s-testimonials__slide -->
+    
+                            <!-- <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-06.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Henry Ford</strong>
+                                        <span>Ford Motor Co.</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
+                                quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
+                                Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                                </p>
+                            </div>  -->
+                            <!-- end s-testimonials__slide -->
+        
+                        </div> <!-- end swiper-wrapper -->
+    
+                        <div class="swiper-pagination"></div>
+    
+                    </div> <!-- end swiper-container -->
+    
+                </div> <!-- end column -->
+            </div> <!-- end s-testimonials -->
+
+        </section> <!-- end s-works --> 
+
+
+        <!-- # numbers
+        ================================================== -->
+        <section id="numbers" class="s-numbers">
+
+            <div class="row counter-items">
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        10
+                        <span>+</span>
+                    </div>
+                    <h5>Happy Customers</h5>
+                    <!-- <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Vel harum magni quae voluptate error quo repellendus inventore 
+                    laborum ex veniam. 
+                    </p> -->
+                </div> <!-- end counter-items__item -->
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        11
+                        <span>+</span>
+                    </div>
+                    <h5>Projects Completed</h5>
+                    <!-- <p>
+                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. 
+                    Fusce vel dui. In ac felis 
+                    quis tortor malesuada pretium
+                    </p> -->
+                </div> <!-- end counter-items__item -->
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        23k
+                        <span>+</span>
+                    </div>
+                    <h5>Lines of Code</h5>
+                    <!-- <p>
+                    Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus
+                    </p> -->
+                </div> <!-- end counter-items__item -->
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        20
+                        <span>+</span>
+                    </div>
+                    <h5>Positive Feedback</h5>
+                    <!-- <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae voluptate error 
+                    quo repellendus inventore laborum ex veniam.
+                    </p> -->
+                </div> <!-- end counter-items__item -->
+
+            </div>  <!-- end counter-items -->
+
+        </section> <!-- end s-numbers -->
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="03">
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter">
+                    Got an opportunity, idea, or project you'd like to build out? I’m open to collaborations, freelance work, or just a good tech convo.
+                    </p>               
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Follow Me</h5>
+                            <ul class="link-list">
+                                <li><a href="https://www.linkedin.com/in/julia-aderemi">LinkedIn</a></li>
+                                <li><a href="https://x.com/lia_jules_?t=wRHei1uoJm_IfYynuVq4eQ&s=09">Twitter/a></li>
+                                <li><a href="https://github.com/Julia-A">GitHub`</a></li>
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Contact Me</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:juliaaderemi@gmail.com">juliaaderemi@gmail.com</a></li>
+                                <li><a href="tel:+2348158922006">+234 815 892 2006</a></li>
+                            </ul> 
+                        </div>
+                    </div>                    
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+            <div class="row s-footer__buttons">
+               
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:juliaaderemi@gmail.com" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+          
+                <div class="column xl-6 tab-12">                    
+                    <a 
+                    href="/downloads//Julia-Aderemi-Resume.pdf"
+                    download="Aderemi_Julia_CV.pdf" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                </div>
+            
+            </div> <!-- end section-footer__buttons -->              
+            
+            <div class="row s-footer__bottom">
+                
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/julia-aderemi" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill:rgba(0, 0, 0, 1);">
+                                    <path d="M20.447 20.452h-3.147v-5.569c0-1.326-.024-3.033-1.847-3.033-1.847 
+                                            0-2.129 1.445-2.129 2.94v5.662H10.06V9h3.023v1.561h.043c.422-.8 
+                                            1.456-1.647 2.998-1.647 3.204 0 3.797 2.11 3.797 4.855v6.683zM5.337 
+                                            7.433c-.97 0-1.75-.79-1.75-1.766 0-.977.781-1.767 1.75-1.767.969 
+                                            0 1.75.79 1.75 1.767 0 .976-.781 1.766-1.75 
+                                            1.766zm1.525 13.019H3.811V9h3.05v11.452zM22.225 
+                                            0H1.771C.792 0 0 .77 0 1.723v20.554C0 23.23.792 
+                                            24 1.771 24h20.451C23.208 24 24 23.23 24 
+                                            22.277V1.723C24 .77 23.208 0 22.225 0z"/>
+                                </svg>
+                                <span class="u-screen-reader-text">LinkedIn</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Julia-A" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill:rgba(0, 0, 0, 1);">
+                                    <path d="M12 .296c-6.627 0-12 5.373-12 12 0 5.302 
+                                            3.438 9.8 8.205 11.387.599.111.82-.261.82-.58 
+                                            0-.287-.011-1.244-.017-2.248-3.338.725-4.042-1.416-4.042-1.416-.546-1.388-1.333-1.757-1.333-1.757-1.089-.745 
+                                            .083-.729.083-.729 1.205.085 1.84 1.237 1.84 
+                                            1.237 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.76-1.605-2.665-.3-5.467-1.333-5.467-5.93 
+                                            0-1.31.469-2.381 1.237-3.221-.124-.303-.536-1.524.117-3.176 
+                                            0 0 1.008-.322 3.301 1.23.958-.266 1.983-.399 
+                                            3.003-.404 1.02.005 2.045.138 3.004.404 2.292-1.552 
+                                            3.297-1.23 3.297-1.23.653 1.653.242 
+                                            2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 
+                                            0 4.609-2.807 5.625-5.479 5.921.429.369.812 
+                                            1.096.812 2.212 0 1.598-.014 2.888-.014 
+                                            3.279 0 .321.219.694.825.576C20.565 
+                                            22.092 24 17.592 24 12.296 24 5.669 
+                                            18.627.297 12 .297z"/>
+                                </svg>
+                                <span class="u-screen-reader-text">GitHub</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/lia_jules_?t=wRHei1uoJm_IfYynuVq4eQ&s=09" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                    width="24" height="24" viewBox="0 0 24 24" 
+                                    style="fill:rgba(0, 0, 0, 1);">
+                                    <path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461
+                                            c-2.282,0-4.402-0.661-6.186-1.809c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721
+                                            c-1.771-0.037-3.255-1.197-3.767-2.793c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137
+                                            c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05c0.537,0.299,1.16,0.486,1.82,0.511
+                                            C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032
+                                            c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923
+                                            c0-2.22,1.796-4.028,4.028-4.028c1.16,0,2.207,0.486,2.943,1.272
+                                            c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22
+                                            c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"/>
+                                </svg>
+                                <span class="u-screen-reader-text">Twitter</span>
+                                </a>
+                        </li>
+                    </ul> 
+                </div> <!-- end section-footer__social -->
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Aderemi Julia 2025</span> 
+                        <!-- <span>Design by <a href="https://styleshout.com/">StyleShout</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></span> -->
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->          
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
