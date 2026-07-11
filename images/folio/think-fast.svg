@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1513 914" role="img" aria-labelledby="title desc">
+  <title id="title">Think Fast project screenshot</title>
+  <desc id="desc">A polished Think Fast game interface with a large headline, colorful letter tiles, and a start room form.</desc>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0a6"/>
+      <stop offset=".5" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#bff2ef"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf3"/>
+      <stop offset=".52" stop-color="#fffefd"/>
+      <stop offset="1" stop-color="#eefafa"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+  <rect width="1513" height="914" fill="url(#page)"/>
+  <path d="M1500 155c-84-23-153-1-208 65" fill="none" stroke="#0e1728" stroke-opacity=".12" stroke-width="3" stroke-dasharray="7 8"/>
+  <path d="M3 386c73-28 143-24 210 13" fill="none" stroke="#0e1728" stroke-opacity=".12" stroke-width="3" stroke-dasharray="7 8"/>
+  <circle cx="760" cy="-2" r="51" fill="#f76491" stroke="#0e1728" stroke-width="4"/>
+  <rect x="22" y="24" width="1469" height="875" rx="36" fill="url(#panel)" stroke="#dde2e4" stroke-width="3"/>
+  <circle cx="1238" cy="392" r="92" fill="#d7d1ff" opacity=".5" filter="url(#blur)"/>
+  <circle cx="393" cy="604" r="76" fill="#ffd8d8" opacity=".48" filter="url(#blur)"/>
+  <circle cx="1384" cy="217" r="110" fill="#c7f6ef" opacity=".5" filter="url(#blur)"/>
+  <g transform="translate(102 103)">
+    <rect width="64" height="64" rx="18" fill="#0f172a"/>
+    <path d="M33 16l4 12 12 4-12 4-4 12-4-12-12-4 12-4 4-12z" fill="none" stroke="#ffd42a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M45 10l2 7 7 2-7 2-2 7-2-7-7-2 7-2 2-7z" fill="none" stroke="#ffd42a" stroke-width="3" stroke-linejoin="round"/>
+    <text x="78" y="43" fill="#101522" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Think Fast</text>
+  </g>
+  <text x="102" y="228" fill="#6b7280" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900" letter-spacing=".02em">MULTIPLAYER WORD RUSH</text>
+  <text x="102" y="292" fill="#101522" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">Think Fast. Call</text>
+  <text x="102" y="357" fill="#101522" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">letters. Keep</text>
+  <text x="102" y="422" fill="#101522" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">score.</text>
+  <text x="102" y="470" fill="#3f4a5a" font-family="Inter, Arial, sans-serif" font-size="25">
+    <tspan x="102" dy="0">Take turns calling A-Z, fill Name, Animal, Place, Thing, and</tspan>
+    <tspan x="102" dy="34">Food, then review answers together before scores are</tspan>
+    <tspan x="102" dy="34">locked.</tspan>
+  </text>
+  <g font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900" fill="#111827" text-anchor="middle">
+    <g transform="translate(102 626) rotate(-5)"><rect width="148" height="58" rx="22" fill="#ffd23f" stroke="#111827" stroke-width="3"/><text x="74" y="38">A</text></g>
+    <g transform="translate(270 615) rotate(4)"><rect width="148" height="58" rx="22" fill="#4fd2c3" stroke="#111827" stroke-width="3"/><text x="74" y="38">Z</text></g>
+    <g transform="translate(435 622) rotate(-3)"><rect width="148" height="58" rx="22" fill="#f76491" stroke="#111827" stroke-width="3"/><text x="74" y="38">B</text></g>
+    <g transform="translate(599 615) rotate(5)"><rect width="148" height="58" rx="22" fill="#70b9ef" stroke="#111827" stroke-width="3"/><text x="74" y="38">M</text></g>
+    <g transform="translate(766 620) rotate(-1)"><rect width="148" height="58" rx="22" fill="#86e396" stroke="#111827" stroke-width="3"/><text x="74" y="38">S</text></g>
+    <g transform="translate(934 617) rotate(4)"><rect width="148" height="58" rx="22" fill="#ffd5a3" stroke="#111827" stroke-width="3"/><text x="74" y="38">K</text></g>
+    <g transform="translate(1097 622) rotate(-4)"><rect width="148" height="58" rx="22" fill="#a78beb" stroke="#111827" stroke-width="3"/><text x="74" y="38">T</text></g>
+    <g transform="translate(1262 617) rotate(4)"><rect width="148" height="58" rx="22" fill="#ffa1a4" stroke="#111827" stroke-width="3"/><text x="74" y="38">R</text></g>
+  </g>
+  <g transform="translate(102 751)">
+    <rect width="1305" height="220" rx="24" fill="#fff" fill-opacity=".74" stroke="#e1e3e7" stroke-width="3"/>
+    <text x="66" y="51" fill="#101522" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Start a room</text>
+    <path d="M29 35l6 8 8-8 6 8 6-8-4 18H33l-4-18z" fill="none" stroke="#101522" stroke-width="3" stroke-linejoin="round"/>
+    <text x="26" y="99" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Your name</text>
+    <rect x="26" y="116" width="1253" height="40" rx="18" fill="#fff" stroke="#d9dadd" stroke-width="3"/>
+    <text x="52" y="143" fill="#737373" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Type your player name</text>
+  </g>
+</svg>

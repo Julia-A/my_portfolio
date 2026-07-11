@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1521 910" role="img" aria-labelledby="title desc">
+  <title id="title">A-partner dashboard screenshot</title>
+  <desc id="desc">A dark A-partner goal tracker dashboard with sidebar navigation, progress cards, today's focus, and a new goal button.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2c31"/>
+      <stop offset="1" stop-color="#242529"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1521" height="910" fill="#18191c"/>
+  <rect width="331" height="910" fill="#2a2b30"/>
+  <line x1="331" y1="0" x2="331" y2="910" stroke="#3a3c42"/>
+  <g transform="translate(17 30)">
+    <rect width="48" height="49" rx="14" fill="#f3a85f"/>
+    <path d="M24 15l14 25H10L24 15z" fill="none" stroke="#fff8ee" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="24" cy="32" r="2.5" fill="#fff8ee"/>
+    <text x="66" y="25" fill="#fff9ef" font-family="Georgia, serif" font-size="30" font-weight="700">A-PARTNER</text>
+    <text x="66" y="50" fill="#87898f" font-family="Inter, Arial, sans-serif" font-size="14" letter-spacing="3">GOAL TRACKER</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="22">
+    <rect x="17" y="141" width="280" height="65" rx="20" fill="#493f37"/>
+    <text x="82" y="181" fill="#ffad62" font-weight="800">Dashboard</text>
+    <text x="82" y="256" fill="#babcc3">Goals</text>
+    <text x="82" y="331" fill="#babcc3">Analytics</text>
+    <text x="82" y="406" fill="#babcc3">Settings</text>
+    <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M42 163h9v9h-9zM57 163h9v9h-9zM42 178h9v9h-9zM57 178h9v9h-9z" stroke="#ffad62"/>
+      <circle cx="52" cy="249" r="11" stroke="#a7a9af"/><circle cx="52" cy="249" r="5" stroke="#a7a9af"/>
+      <path d="M42 333v-18M52 333v-12M62 333v-20M42 333h24" stroke="#a7a9af"/>
+      <path d="M52 389l4 7 8 1-6 6 1 8-7-4-7 4 1-8-6-6 8-1 4-7z" stroke="#a7a9af"/>
+    </g>
+  </g>
+  <line x1="17" y1="681" x2="297" y2="681" stroke="#3c3d43"/>
+  <g transform="translate(17 719)" font-family="Inter, Arial, sans-serif">
+    <rect width="51" height="50" rx="16" fill="#303136" stroke="#42444a"/>
+    <path d="M17 14h18v7c0 8-5 13-9 13s-9-5-9-13v-7zM15 18h-5c0 8 5 11 8 11M37 18h5c0 8-5 11-8 11M22 37h8M19 41h14" fill="none" stroke="#f3a85f" stroke-width="2"/>
+    <text x="67" y="18" fill="#fff8ef" font-size="21" font-weight="800">Level 2</text>
+    <text x="67" y="47" fill="#9fa1a8" font-size="20">390 XP</text>
+    <rect x="228" y="6" width="52" height="38" rx="11" fill="#514337"/>
+    <text x="244" y="31" fill="#ffad62" font-size="16" font-weight="800">1</text>
+    <rect y="76" width="280" height="11" rx="6" fill="#202126"/>
+    <rect y="76" width="266" height="11" rx="6" fill="#f3a85f"/>
+    <text x="62" y="154" fill="#85878d" font-size="19">Sign out</text>
+  </g>
+  <g transform="translate(395 58)">
+    <text x="0" y="56" fill="#fff7eb" font-family="Georgia, serif" font-size="66">Welcome back.</text>
+    <text x="0" y="103" fill="#b8bbc3" font-family="Inter, Arial, sans-serif" font-size="25">Let's make some progress today.</text>
+    <circle cx="377" cy="58" r="10" fill="#614d3b" opacity=".65"/>
+    <circle cx="598" cy="54" r="8" fill="#614d3b" opacity=".65"/>
+  </g>
+  <g transform="translate(1113 60)" font-family="Inter, Arial, sans-serif">
+    <rect width="357" height="99" rx="20" fill="url(#panel)" stroke="#3d3f45"/>
+    <rect x="28" y="22" width="54" height="54" rx="16" fill="#514337"/>
+    <path d="M45 34h20v8c0 9-5 14-10 14s-10-5-10-14v-8zM42 39h-6c0 9 6 12 10 12M68 39h6c0 9-6 12-10 12M50 62h11M47 66h17" fill="none" stroke="#f3a85f" stroke-width="3"/>
+    <text x="103" y="48" fill="#fff7ee" font-size="21" font-weight="800">Level 2</text>
+    <text x="266" y="57" fill="#85878d" font-size="20">390 XP</text>
+    <rect x="104" y="66" width="128" height="8" rx="4" fill="#45464c"/>
+    <rect x="104" y="66" width="123" height="8" rx="4" fill="#f3a85f"/>
+  </g>
+  <g transform="translate(395 228)" font-family="Inter, Arial, sans-serif">
+    <g>
+      <rect width="253" height="176" rx="30" fill="#2a2b30" stroke="#3d3f45"/>
+      <text x="63" y="48" fill="#bcc0c8" font-size="20">Current Streak</text>
+      <text x="28" y="109" fill="#fff7eb" font-family="Georgia, serif" font-size="42">1</text>
+      <text x="55" y="109" fill="#85878d" font-size="24">days</text>
+      <text x="28" y="144" fill="#85878d" font-size="16">Best: 1 days</text>
+      <path d="M40 32c8 8 8 19-2 21-8 1-13-7-8-14 2-3 3-7 2-11 4 4 7 5 8 4z" fill="none" stroke="#f3a85f" stroke-width="3"/>
+    </g>
+    <g transform="translate(275 0)">
+      <rect width="253" height="176" rx="30" fill="#2a2b30" stroke="#3d3f45"/>
+      <text x="63" y="48" fill="#bcc0c8" font-size="20">This Week</text>
+      <text x="28" y="109" fill="#fff7eb" font-family="Georgia, serif" font-size="42">4</text>
+      <text x="28" y="144" fill="#85878d" font-size="16">Steps completed</text>
+      <circle cx="39" cy="41" r="10" fill="none" stroke="#72c7b7" stroke-width="2.5"/><path d="M34 41l4 4 7-8" fill="none" stroke="#72c7b7" stroke-width="2.5"/>
+    </g>
+    <g transform="translate(550 0)">
+      <rect width="253" height="176" rx="30" fill="#2a2b30" stroke="#3d3f45"/>
+      <text x="63" y="48" fill="#bcc0c8" font-size="20">Completion</text>
+      <text x="28" y="109" fill="#fff7eb" font-family="Georgia, serif" font-size="42">100%</text>
+      <text x="28" y="144" fill="#85878d" font-size="16">All-time rate</text>
+      <path d="M33 50v-8M40 50V35M47 50V29" stroke="#f3a85f" stroke-width="2.5"/>
+    </g>
+    <g transform="translate(824 0)">
+      <rect width="253" height="176" rx="30" fill="#2a2b30" stroke="#3d3f45"/>
+      <text x="63" y="48" fill="#bcc0c8" font-size="20">Overdue</text>
+      <text x="28" y="109" fill="#fff7eb" font-family="Georgia, serif" font-size="42">0</text>
+      <text x="28" y="144" fill="#85878d" font-size="16">Pending tasks</text>
+      <path d="M39 32l10 18H29l10-18zM39 38v6M39 49v1" fill="none" stroke="#85878d" stroke-width="2.5"/>
+    </g>
+  </g>
+  <g transform="translate(395 477)">
+    <path d="M16 3l4 12 12 4-12 4-4 12-4-12-12-4 12-4 4-12z" fill="none" stroke="#f3a85f" stroke-width="3"/>
+    <text x="50" y="31" fill="#fff7eb" font-family="Georgia, serif" font-size="44">Today's Focus</text>
+    <rect y="68" width="1076" height="213" rx="30" fill="#2a2b30" stroke="#3d3f45"/>
+    <text x="444" y="162" fill="#bcc0c8" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Your slate is clean.</text>
+    <text x="333" y="202" fill="#85878d" font-family="Inter, Arial, sans-serif" font-size="20">Start by adding some steps to your milestones.</text>
+  </g>
+  <g transform="translate(395 836)">
+    <text x="0" y="30" fill="#fff7eb" font-family="Georgia, serif" font-size="42">Your Goals</text>
+    <rect x="914" y="-13" width="162" height="56" rx="28" fill="#2d2e33" stroke="#3d3f45"/>
+    <text x="944" y="22" fill="#fff7eb" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">+ New Goal</text>
+    <path d="M625 31c20-24 34 24 53 0s34 24 53 0 34 24 53 0" fill="none" stroke="#2e3035" stroke-width="4"/>
+    <circle cx="854" cy="10" r="7" fill="#284341"/>
+  </g>
+</svg>
