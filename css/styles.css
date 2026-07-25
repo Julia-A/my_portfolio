@@ -321,6 +321,26 @@ h3 {
     font-size: .95rem;
 }
 
+.project-group {
+    margin-top: 28px;
+}
+
+.project-group + .project-group {
+    margin-top: 42px;
+}
+
+.project-group__heading {
+    display: grid;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.project-group__heading h3 {
+    max-width: 760px;
+    font-size: clamp(1.35rem, 2vw, 1.85rem);
+    letter-spacing: -.04em;
+}
+
 .project-card {
     overflow: hidden;
     transition: transform .18s ease, border-color .18s ease;
