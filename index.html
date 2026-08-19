@@ -16,64 +16,63 @@
     <header class="site-header" data-header>
         <a class="brand" href="#top" aria-label="Julia Aderemi home">
             <span>JA</span>
-            Julia Aderemi
+            <span class="brand__name">Julia Aderemi</span>
         </a>
 
         <nav class="site-nav" aria-label="Primary navigation">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
+            <a href="#about"><span>01</span> About</a>
+            <a href="#projects"><span>02</span> Work</a>
+            <a href="#experience"><span>03</span> Experience</a>
+            <a href="#skills"><span>04</span> Skills</a>
+            <a href="#contact"><span>05</span> Contact</a>
         </nav>
     </header>
 
     <main id="top">
         <section class="hero shell">
             <div class="hero__copy reveal">
+                <p class="eyebrow">Backend developer / Lagos, Nigeria</p>
                 <h1>Backend Developer</h1>
                 <p class="hero__text">
-                    I build backend APIs, authentication flows, and database-backed applications with Node.js, Express, and MongoDB.
+                    I design and ship APIs, authentication flows, payment logic, and database-backed products with Node.js, Express, and MongoDB.
                 </p>
 
                 <div class="hero__actions">
-                    <a class="btn btn--primary" href="#projects">View projects</a>
-                    <a class="btn btn--ghost" href="mailto:juliaaderemi@gmail.com">Contact me</a>
+                    <a class="btn btn--primary" href="#projects">Selected work</a>
+                    <a class="btn btn--ghost" href="mailto:juliaaderemi@gmail.com">juliaaderemi@gmail.com</a>
                 </div>
             </div>
 
             <aside class="profile-card reveal" aria-label="Profile summary">
+                <svg class="portrait-arrow" viewBox="0 0 150 100" aria-hidden="true">
+                    <path d="M5 18C73 -2 124 24 87 53C59 75 76 87 120 78" />
+                    <path d="M105 68L120 78L106 91" />
+                </svg>
                 <img src="images/profile-photo.png" alt="Portrait of Julia Aderemi">
-                <div>
-                    <p class="profile-card__label">Available for</p>
-                    <h2>Backend roles, internships, and collaborations.</h2>
-                </div>
-                <ul class="stack-list" aria-label="Core stack">
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>MongoDB</li>
-                    <li>REST APIs</li>
-                    <li>JWT</li>
-                    <li>Linux</li>
-                </ul>
+                <dl class="profile-meta">
+                    <div><dt>Focus</dt><dd>APIs, auth, payments, data</dd></div>
+                    <div><dt>Core stack</dt><dd>Node.js, Express, MongoDB</dd></div>
+                    <div><dt>Availability</dt><dd>Open to backend roles</dd></div>
+                </dl>
             </aside>
         </section>
 
         <section id="about" class="shell section">
             <div class="section-heading reveal">
-                <p class="eyebrow">About</p>
-                <h2>Developer with a backend-first mindset.</h2>
+                <p class="section-index">01 / About</p>
+                <h2>I care about what happens behind the interface.</h2>
             </div>
 
             <div class="split-grid">
                 <p class="lead-card reveal">
-                    I studied Computer Information Systems at Babcock University and graduated with first-class honors. I care about building software that works, stays understandable, and can be maintained after launch.
+                    I studied Computer Information Systems at Babcock University and graduated with first-class honours. My work starts with the behaviour a product needs and the data needed to support it.
                 </p>
                 <div class="text-card reveal">
                     <p>
-                        My work focuses on backend architecture, API design, authentication, cloud deployments, Linux environments, and database-driven applications. I have built personal products, full-stack systems, and backend services across different project types.
+                        I work across API design, authentication, database modelling, payment flows, cloud deployments, and Linux environments. I have contributed to live commercial products as well as built full-stack products independently.
                     </p>
                     <p>
-                        I like thoughtful engineering: clear routes, good data models, secure access control, and code that does not become confusing two weeks later.
+                        My preference is straightforward engineering: explicit routes, deliberate data models, secure access control, useful logs, and code another developer can understand without a guided tour.
                     </p>
                 </div>
             </div>
@@ -82,15 +81,16 @@
         <section id="projects" class="shell section">
             <div class="section-heading section-heading--row reveal">
                 <div>
-                    <p class="eyebrow">Selected Projects</p>
-                    <h2>Selected work.</h2>
+                    <p class="section-index">02 / Work</p>
+                    <h2>Selected backend work.</h2>
                 </div>
+                <p>Commercial contributions and independent products, with the specific systems I worked on.</p>
             </div>
 
             <div class="project-group reveal">
                 <div class="project-group__heading">
-                    <p class="eyebrow">Commercial Projects</p>
-                    <h3>Business products and platform work.</h3>
+                    <p class="project-group__label">Commercial</p>
+                    <h3>Production systems for active products</h3>
                 </div>
 
                 <div class="project-grid">
@@ -126,20 +126,18 @@
 
             <div class="project-group reveal">
                 <div class="project-group__heading">
-                    <p class="eyebrow">Personal Projects</p>
-                    <h3>Independent product builds.</h3>
+                    <p class="project-group__label">Personal</p>
+                    <h3>Products designed and built independently</h3>
                 </div>
 
                 <p class="project-note reveal">
-                    Warning: My personal projects are hosted on Render, so loading or backend features may be slow on the first request while the server wakes up.
+                    Hosting note: personal project backends run on Render and may take a moment to wake on the first request.
                 </p>
 
                 <div class="project-grid">
                     <article class="project-card project-card--featured reveal">
                         <a class="project-preview project-preview--partner" href="https://a-partner.netlify.app/" target="_blank" rel="noopener">
-                            <span class="project-preview__kicker">Accountability app</span>
-                            <strong>A-partner</strong>
-                            <small>Goal tracking, progress visibility, dashboard flow</small>
+                            <img src="images/folio/a-partner.svg" alt="A-partner goal tracking dashboard">
                         </a>
                         <div class="project-card__content">
                             <p class="project-number">01</p>
@@ -156,9 +154,7 @@
 
                     <article class="project-card project-card--featured reveal">
                         <a class="project-preview project-preview--think" href="https://i-call-on.netlify.app/" target="_blank" rel="noopener">
-                            <span class="project-preview__kicker">Multiplayer word game</span>
-                            <strong>Think Fast</strong>
-                            <small>Create a room, call letters, submit answers, keep score</small>
+                            <img src="images/folio/think-fast.svg" alt="Think Fast multiplayer word game interface">
                         </a>
                         <div class="project-card__content">
                             <p class="project-number">02</p>
@@ -208,33 +204,38 @@
 
         <section id="experience" class="shell section">
             <div class="section-heading reveal">
-                <p class="eyebrow">Experience</p>
-                <h2>Relevant background.</h2>
+                <p class="section-index">03 / Experience</p>
+                <h2>Where I have worked.</h2>
             </div>
 
             <div class="experience-list">
                 <article class="experience-card reveal">
+                    <span>Aug 2026 - Present</span>
+                    <h3>Junior Backend Developer <small>KachexModel / Remote</small></h3>
+                    <p>Contributing to backend feature development and maintenance as part of a remote engineering team.</p>
+                </article>
+                <article class="experience-card reveal">
                     <span>2025 - Present</span>
-                    <h3>Backend Developer - Nomira</h3>
+                    <h3>Backend Developer <small>Nomira</small></h3>
                     <p>Built backend infrastructure, implemented authentication workflows, integrated services, and supported cloud deployment work.</p>
                 </article>
                 <article class="experience-card reveal">
                     <span>2024</span>
-                    <h3>Cloud Engineer Intern - Chevron Nigeria</h3>
+                    <h3>Cloud Engineer Intern <small>Chevron Nigeria</small></h3>
                     <p>Supported RHEL Linux environments, HPC workstation deployment, monitoring, and infrastructure operations.</p>
                 </article>
                 <article class="experience-card reveal">
                     <span>2024 - Present</span>
-                    <h3>Backend Developer - Projects & Self Learning</h3>
+                    <h3>Independent Backend Developer <small>Product projects</small></h3>
                     <p>Built backend and full-stack applications while practicing API design, database modeling, auth, and deployment patterns.</p>
                 </article>
             </div>
         </section>
 
-        <section class="shell section">
+        <section id="skills" class="shell section">
             <div class="section-heading reveal">
-                <p class="eyebrow">Skills</p>
-                <h2>Tools I use.</h2>
+                <p class="section-index">04 / Technical practice</p>
+                <h2>What I work with.</h2>
             </div>
 
             <div class="skills-grid">
@@ -259,11 +260,11 @@
 
         <section id="contact" class="shell section">
             <div class="contact-card reveal">
-                <p class="eyebrow">Contact</p>
-                <h2>Need a backend developer?</h2>
-                <p>I am open to backend engineering roles, internships, freelance work, and collaboration on useful products.</p>
+                <p class="section-index">05 / Contact</p>
+                <h2>Let us talk about the backend work you need done.</h2>
+                <p>I am open to backend engineering roles and product-focused collaborations.</p>
                 <div class="hero__actions">
-                    <a class="btn btn--primary" href="mailto:juliaaderemi@gmail.com">Email me</a>
+                    <a class="btn btn--primary" href="mailto:juliaaderemi@gmail.com">Send an email</a>
                     <a class="btn btn--ghost" href="https://www.linkedin.com/in/julia-aderemi" target="_blank" rel="noopener">LinkedIn</a>
                     <a class="btn btn--ghost" href="https://github.com/Julia-A" target="_blank" rel="noopener">GitHub</a>
                 </div>
